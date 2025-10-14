@@ -1,0 +1,26 @@
+pinouts
+
+7 seg
+clk=5
+dio=4
+
+
+osilation distance
+tri=23
+echo=24
+
+ads115
+scl=3
+sda=2
+--------
+addr=gnd
+ao=pri out
+
+
+
+Rfid
+sda=8
+sck=11
+mosi=10
+miso=9
+rst=25(extra)

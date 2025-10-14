@@ -1,0 +1,24 @@
+Pip install Matplotlib
+Pip3 install adafruit-circuitpython-ads1x15
+Sudo apt install swig build-essential python3-dev -y
+Sudo apt install liblgpio-dev swig build essential python3-dev-y
+Pip3 install lgpio
+
+RFID COMMAND :
+pip install pi-rc522
+
+Pip install Matplotlib
+Pip3 install adafruit-circuitpython-ads1x15
+Sudo apt install swig build-essential python3-dev -y
+Sudo apt install liblgpio-dev swig build essential python3-dev-y
+Pip3 install lgpio
+
+Camera command :
+Sudo raspi-config : for I2C enabling
+Video: rpicam-vid -t 10000 -o video.mp4
+pip install picamera2
+rpicam-still -o test.jpg
+.
+sudo apt-get update
+sudo apt-get install --reinstall lincamera-apps
+rpicam-hello
