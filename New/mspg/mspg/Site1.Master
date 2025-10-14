@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="mspg.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="background-color:aqua; height: 138px;">
+
+            <br />
+            <br />
+            <center>
+                <h1>SHOPE
+                </h1>
+                
+            </center>
+            <asp:LinkButton ID="LinkButton1" runat="server">home</asp:LinkButton>
+
+
+            
+
+        </div>
+        <div style="height: 240px">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                
+
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
